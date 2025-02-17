@@ -5,15 +5,15 @@ VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedLotteryGame.ConsoleApp", "SimplifiedLotteryGame.ConsoleApp.csproj", "{1221B028-8927-40F5-BC78-BBA82B21EC59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedLotteryGame.Services", "..\SimplifiedLotteryGame.Services\SimplifiedLotteryGame.Services.csproj", "{C5B1DE56-A12D-4FF9-8DB3-D452735BD0DC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedLotteryGame.Data", "..\SimplifiedLotteryGame.Data\SimplifiedLotteryGame.Data.csproj", "{79D51CF6-16E7-4A2A-9170-8FAC1D0691DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedLotteryGame.Common", "..\SimplifiedLotteryGame.Common\SimplifiedLotteryGame.Common.csproj", "{F6F4D503-659F-4939-9C78-501BA02DD94B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedLotteryGame.Services", "..\SimplifiedLotteryGame.Services\SimplifiedLotteryGame.Services.csproj", "{C4D01465-BE56-4FEA-914C-230515D71BF2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedLotteryGame.Data", "..\SimplifiedLotteryGame.Data\SimplifiedLotteryGame.Data.csproj", "{CBA11257-0126-4BC8-98BE-24D041057D6A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedLotteryGame.Common", "..\SimplifiedLotteryGame.Common\SimplifiedLotteryGame.Common.csproj", "{3B7C6CDD-1BC0-44C8-BC4F-C6C0D629FEED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedLotteryGame.UnitTests.Services", "..\SimplifiedLotteryGame.UnitTests.Services\SimplifiedLotteryGame.UnitTests.Services.csproj", "{26F0FF82-EE48-485F-8F94-3438308506D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedLotteryGame.UnitTests.Services", "..\SimplifiedLotteryGame.UnitTests.Services\SimplifiedLotteryGame.UnitTests.Services.csproj", "{7C48698F-5390-4DC2-8E8B-B77D80F40C50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedLotteryGame.UnitTests.Common", "..\SimplifiedLotteryGame.UnitTests.Common\SimplifiedLotteryGame.UnitTests.Common.csproj", "{F403BF99-596B-4879-AE03-3D35ED661C73}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimplifiedLotteryGame.UnitTests.Common", "..\SimplifiedLotteryGame.UnitTests.Common\SimplifiedLotteryGame.UnitTests.Common.csproj", "{B8F601EE-1CFE-44BA-9DEA-EBB50DD7038B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,26 +25,26 @@ Global
 		{1221B028-8927-40F5-BC78-BBA82B21EC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1221B028-8927-40F5-BC78-BBA82B21EC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1221B028-8927-40F5-BC78-BBA82B21EC59}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C5B1DE56-A12D-4FF9-8DB3-D452735BD0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C5B1DE56-A12D-4FF9-8DB3-D452735BD0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C5B1DE56-A12D-4FF9-8DB3-D452735BD0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C5B1DE56-A12D-4FF9-8DB3-D452735BD0DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6F4D503-659F-4939-9C78-501BA02DD94B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F6F4D503-659F-4939-9C78-501BA02DD94B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6F4D503-659F-4939-9C78-501BA02DD94B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F6F4D503-659F-4939-9C78-501BA02DD94B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CBA11257-0126-4BC8-98BE-24D041057D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CBA11257-0126-4BC8-98BE-24D041057D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CBA11257-0126-4BC8-98BE-24D041057D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CBA11257-0126-4BC8-98BE-24D041057D6A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{26F0FF82-EE48-485F-8F94-3438308506D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{26F0FF82-EE48-485F-8F94-3438308506D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{26F0FF82-EE48-485F-8F94-3438308506D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{26F0FF82-EE48-485F-8F94-3438308506D0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F403BF99-596B-4879-AE03-3D35ED661C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F403BF99-596B-4879-AE03-3D35ED661C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F403BF99-596B-4879-AE03-3D35ED661C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F403BF99-596B-4879-AE03-3D35ED661C73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D51CF6-16E7-4A2A-9170-8FAC1D0691DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D51CF6-16E7-4A2A-9170-8FAC1D0691DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D51CF6-16E7-4A2A-9170-8FAC1D0691DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D51CF6-16E7-4A2A-9170-8FAC1D0691DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4D01465-BE56-4FEA-914C-230515D71BF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4D01465-BE56-4FEA-914C-230515D71BF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4D01465-BE56-4FEA-914C-230515D71BF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4D01465-BE56-4FEA-914C-230515D71BF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7C6CDD-1BC0-44C8-BC4F-C6C0D629FEED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7C6CDD-1BC0-44C8-BC4F-C6C0D629FEED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7C6CDD-1BC0-44C8-BC4F-C6C0D629FEED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7C6CDD-1BC0-44C8-BC4F-C6C0D629FEED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C48698F-5390-4DC2-8E8B-B77D80F40C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C48698F-5390-4DC2-8E8B-B77D80F40C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C48698F-5390-4DC2-8E8B-B77D80F40C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C48698F-5390-4DC2-8E8B-B77D80F40C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8F601EE-1CFE-44BA-9DEA-EBB50DD7038B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8F601EE-1CFE-44BA-9DEA-EBB50DD7038B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8F601EE-1CFE-44BA-9DEA-EBB50DD7038B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8F601EE-1CFE-44BA-9DEA-EBB50DD7038B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
